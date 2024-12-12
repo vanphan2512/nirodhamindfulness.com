@@ -10548,6 +10548,18 @@ button.btn-subscribe {
     background-color: #224d38;
     border-color: #224d38; }
 
+a.txt-link {
+  border-radius: 20px;
+  background-color: #2a6b4b;
+  border-color: #2a6b4b;
+  font-size: 14px;
+  padding: 6px 15px;
+  color: #fff; }
+  a.txt-link:hover, a.txt-link:focus {
+    background-color: #224d38;
+    border-color: #224d38;
+    text-decoration: none; }
+
 body {
   margin: 0 auto;
   background: #fff;
@@ -11692,6 +11704,31 @@ a, li {
       justify-content: end; }
   .site2 .home-section-about {
     margin: 50px 0; }
+  .site2 .main-video-homepage {
+    margin-top: 215px; }
+    .site2 .main-video-homepage .video-banner {
+      position: relative; }
+      .site2 .main-video-homepage .video-banner .video-background {
+        width: 100%; }
+      .site2 .main-video-homepage .video-banner .info-video {
+        position: absolute;
+        top: 40%;
+        left: 0;
+        right: 0;
+        padding: 30px;
+        width: 80%;
+        margin: auto; }
+        .site2 .main-video-homepage .video-banner .info-video p {
+          color: #ffffff;
+          font-size: 22px;
+          font-weight: 500;
+          margin-bottom: 0;
+          text-align: center;
+          background-color: #dbcb9f4a;
+          display: flex;
+          align-items: center;
+          border-radius: 6px;
+          padding: 7px 20px; }
   .site2 .overlay {
     position: fixed;
     left: 0;

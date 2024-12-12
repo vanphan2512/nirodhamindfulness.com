@@ -41,3 +41,29 @@
 
 .home-section-about {
   margin: 50px 0; }
+
+.main-video-homepage {
+  margin-top: 215px; }
+  .main-video-homepage .video-banner {
+    position: relative; }
+    .main-video-homepage .video-banner .video-background {
+      width: 100%; }
+    .main-video-homepage .video-banner .info-video {
+      position: absolute;
+      top: 40%;
+      left: 0;
+      right: 0;
+      padding: 30px;
+      width: 80%;
+      margin: auto; }
+      .main-video-homepage .video-banner .info-video p {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 0;
+        text-align: center;
+        background-color: #dbcb9f4a;
+        display: flex;
+        align-items: center;
+        border-radius: 6px;
+        padding: 7px 20px; }

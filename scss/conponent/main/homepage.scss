@@ -53,5 +53,35 @@
 
 .home-section-about{
     margin: 50px 0;
-  
+}
+.main-video-homepage {
+    margin-top: 215px;
+    .video-banner{
+        position: relative;
+        .video-background{
+            width: 100%;
+        }
+        .info-video{
+            position: absolute;
+            top: 40%;
+            left: 0;
+            right: 0;
+            padding: 30px;
+            width: 80%;
+            margin: auto;
+          p{
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: 500;
+            margin-bottom: 0;
+            text-align: center;
+            background-color: #dbcb9f4a;
+            display: flex;
+            align-items: center;
+            border-radius: 6px;
+            padding: 7px 20px;
+          }
+           
+        }
+    }
 }
