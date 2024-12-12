@@ -1,0 +1,57 @@
+.main {
+    &.homepage {
+        padding-bottom: 0;
+        overflow: hidden;
+
+        @media (max-width: 992px) {
+            overflow-x: hidden;
+        }
+
+        .section-title {
+            margin-bottom: 30px;
+            h2 {
+                color: #2e7250;
+                text-align: center;
+                font-size: 14px;
+                font-family: "futura-std";
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: 1px;
+                line-height: 1.5em;
+            }
+            h3 {
+                color: #272424;
+                text-align: center;
+                font-family: "futura-std";
+                font-weight: 500;
+                font-size: 38px;
+                line-height: 1.4em;
+            }
+
+        }
+    }
+}
+
+.home-section-subscribe{
+    background-image: url("../images/subscribe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 50px 0;
+    h3{
+        color: #fff;
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    .box-subscribe{
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.home-section-about{
+    margin: 50px 0;
+  
+}

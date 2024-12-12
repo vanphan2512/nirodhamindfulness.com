@@ -1,0 +1,9 @@
+button.btn-subscribe {
+  border-radius: 20px;
+  background-color: #2a6b4b;
+  border-color: #2a6b4b;
+  width: 175px;
+  font-size: 14px; }
+  button.btn-subscribe:hover, button.btn-subscribe:focus {
+    background-color: #224d38;
+    border-color: #224d38; }
