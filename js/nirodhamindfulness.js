@@ -363,6 +363,19 @@ $(document).ready(function () {
         paginationSpeed: 1000,
         navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>']
     });
+    $("#events").owlCarousel({
+        items: 3,
+        itemsDesktop: [1000, 1],
+        itemsDesktopSmall: [900, 1],
+        itemsTablet: [600, 1],
+        itemsMobile: false,
+        navigation: true,
+        pagination: true,
+        autoPlay: false,
+        slideSpeed: 1000,
+        paginationSpeed: 1000,
+        navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>']
+    });
     $("#owl-home-main-slider").owlCarousel({
         items: 1,
         itemsDesktop: [1000, 1],

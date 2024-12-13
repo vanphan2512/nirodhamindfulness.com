@@ -11757,7 +11757,8 @@ a, li {
     left: 0;
     right: 0;
     z-index: 10; }
-    .site2 .home-section-our-team .owl-controls .owl-buttons .owl-prev, .site2 .home-section-our-team .owl-controls .owl-buttons .owl-next {
+    .site2 .home-section-our-team .owl-controls .owl-buttons .owl-prev,
+    .site2 .home-section-our-team .owl-controls .owl-buttons .owl-next {
       position: absolute;
       width: 45px;
       height: 45px;
@@ -11768,6 +11769,30 @@ a, li {
       right: 0; }
   .site2 .home-section-classes {
     margin-bottom: 50px; }
+    .site2 .home-section-classes .slider-classes.owl-carousel .owl-item {
+      display: flex;
+      justify-content: center; }
+    .site2 .home-section-classes .slider-classes.owl-carousel .owl-controls .owl-buttons {
+      position: absolute;
+      top: 30%;
+      left: 0;
+      right: 0;
+      z-index: 10; }
+      .site2 .home-section-classes .slider-classes.owl-carousel .owl-controls .owl-buttons .owl-prev,
+      .site2 .home-section-classes .slider-classes.owl-carousel .owl-controls .owl-buttons .owl-next {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        font-size: 25px; }
+      .site2 .home-section-classes .slider-classes.owl-carousel .owl-controls .owl-buttons .owl-prev {
+        left: 0; }
+      .site2 .home-section-classes .slider-classes.owl-carousel .owl-controls .owl-buttons .owl-next {
+        right: 0; }
+    .site2 .home-section-classes .slider-classes .item {
+      width: 80%; }
+      .site2 .home-section-classes .slider-classes .item .description {
+        padding: 5px 10px;
+        font-size: 14px; }
   .site2 .overlay {
     position: fixed;
     left: 0;
