@@ -337,28 +337,28 @@ $(document).ready(function () {
     //     // navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>']
     // });
 
-    $("#home-gallery-slider").owlCarousel({
-        items: 5,
-        itemsDesktop: [1000, 4],
-        itemsDesktopSmall: [900, 2],
-        itemsTablet: [600, 1],
-        itemsMobile: false,
-        navigation: false,
-        pagination: true,
-        autoPlay: 2000,
-        slideSpeed: 1000,
-        paginationSpeed: 1000,
-        navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>']
-    });
-    $("#zoom-gallery").owlCarousel({
-        items: 1,
+    $("#our-team").owlCarousel({
+        items: 3,
         itemsDesktop: [1000, 1],
         itemsDesktopSmall: [900, 1],
         itemsTablet: [600, 1],
         itemsMobile: false,
         navigation: true,
         pagination: true,
-        autoPlay: 2000,
+        autoPlay: false,
+        slideSpeed: 1000,
+        paginationSpeed: 1000,
+        navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>']
+    });
+    $("#classes").owlCarousel({
+        items: 3,
+        itemsDesktop: [1000, 1],
+        itemsDesktopSmall: [900, 1],
+        itemsTablet: [600, 1],
+        itemsMobile: false,
+        navigation: true,
+        pagination: true,
+        autoPlay: false,
         slideSpeed: 1000,
         paginationSpeed: 1000,
         navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>']

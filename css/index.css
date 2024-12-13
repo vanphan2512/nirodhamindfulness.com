@@ -10553,7 +10553,7 @@ a.txt-link {
   background-color: #2a6b4b;
   border-color: #2a6b4b;
   font-size: 14px;
-  padding: 6px 15px;
+  padding: 6px 20px;
   color: #fff; }
   a.txt-link:hover, a.txt-link:focus {
     background-color: #224d38;
@@ -11670,7 +11670,13 @@ a, li {
       .site2 .main.homepage {
         overflow-x: hidden; } }
     .site2 .main.homepage .section-title {
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+      align-items: center; }
       .site2 .main.homepage .section-title h2 {
         color: #2e7250;
         text-align: center;
@@ -11687,6 +11693,11 @@ a, li {
         font-weight: 500;
         font-size: 38px;
         line-height: 1.4em; }
+    .site2 .main.homepage .home-section-about .section-title h3 {
+      max-width: 63%; }
+      @media (max-width: 992px) {
+        .site2 .main.homepage .home-section-about .section-title h3 {
+          max-width: 80%; } }
   .site2 .home-section-subscribe {
     background-image: url("../images/subscribe.jpg");
     background-repeat: no-repeat;
@@ -11703,7 +11714,7 @@ a, li {
       display: flex;
       justify-content: end; }
   .site2 .home-section-about {
-    margin: 50px 0; }
+    margin: 0 0 50px; }
   .site2 .main-video-homepage {
     margin-top: 215px; }
     .site2 .main-video-homepage .video-banner {
@@ -11724,11 +11735,39 @@ a, li {
           font-weight: 500;
           margin-bottom: 0;
           text-align: center;
-          background-color: #dbcb9f4a;
+          background-color: #211e1f61;
           display: flex;
           align-items: center;
           border-radius: 6px;
           padding: 7px 20px; }
+  .site2 .home-section-our-team .our-team .our-team-item .our-team-item-img {
+    display: flex;
+    justify-content: center; }
+    .site2 .home-section-our-team .our-team .our-team-item .our-team-item-img img {
+      width: 80%; }
+  .site2 .home-section-our-team .our-team .our-team-item .our-team-item-info {
+    text-align: center;
+    margin-top: 30px; }
+    .site2 .home-section-our-team .our-team .our-team-item .our-team-item-info h4 {
+      font-weight: 700;
+      font-size: 22px; }
+  .site2 .home-section-our-team .owl-controls .owl-buttons {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    z-index: 10; }
+    .site2 .home-section-our-team .owl-controls .owl-buttons .owl-prev, .site2 .home-section-our-team .owl-controls .owl-buttons .owl-next {
+      position: absolute;
+      width: 45px;
+      height: 45px;
+      font-size: 25px; }
+    .site2 .home-section-our-team .owl-controls .owl-buttons .owl-prev {
+      left: 0; }
+    .site2 .home-section-our-team .owl-controls .owl-buttons .owl-next {
+      right: 0; }
+  .site2 .home-section-classes {
+    margin-bottom: 50px; }
   .site2 .overlay {
     position: fixed;
     left: 0;
