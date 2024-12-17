@@ -749,10 +749,10 @@ jQuery(document).ready(function () {
 
     jQuery('#readMore-aboutus').click(function () {
         if (isExpanded) {
-            jQuery('#aboutUsList').removeClass('show-full');
+            jQuery('#about-us').removeClass('show-full');
             jQuery(this).text('Read more...');
         } else {
-            jQuery('#aboutUsList').addClass('show-full');
+            jQuery('#about-us').addClass('show-full');
             jQuery(this).text('Show Less...');
         }
         isExpanded = !isExpanded;
