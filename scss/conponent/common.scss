@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
   background: #fff;
-  font-family: "Futura Std", sans-serif;
+  font-family: "OpenSans Bold", sans-serif;
   color: #767676;
   -webkit-font-smoothing: antialiased;
 
@@ -27,7 +27,7 @@ h5,
 h6,
 p,
 a,li{
-  font-family: "Futura Std Light";
+  font-family: "OpenSans Light", sans-serif;
   color: #000;
 }
 .nivo-lightbox-overlay {
@@ -79,7 +79,7 @@ a,li{
   }
   a {
     cursor: pointer;
-    border: 1px solid #000;
+    border: 1px solid #307854;
     opacity: 1;
     display: block;
     max-height: 40px;
@@ -108,7 +108,7 @@ a,li{
       }
     }
     &.subscribe {
-      background-color: #000;
+      background-color: #307854;
       margin-bottom: 6px;
       color: #fff;
       text-transform: uppercase;
@@ -129,7 +129,7 @@ a,li{
       }
     }
     &.book_online {
-      background-color: #000;
+      background-color: #307854;
       color: #fff;
       text-transform: uppercase;
       font-size: 13px;

@@ -10563,7 +10563,7 @@ a.txt-link {
 body {
   margin: 0 auto;
   background: #fff;
-  font-family: "Futura Std", sans-serif;
+  font-family: "OpenSans Bold", sans-serif;
   color: #767676;
   -webkit-font-smoothing: antialiased; }
   body::-webkit-scrollbar-track {
@@ -10583,7 +10583,7 @@ h5,
 h6,
 p,
 a, li {
-  font-family: "Futura Std Light";
+  font-family: "OpenSans Light", sans-serif;
   color: #000; }
 
 .nivo-lightbox-overlay {
@@ -10631,7 +10631,7 @@ a, li {
       text-align: center; } }
   .groupbtntright a {
     cursor: pointer;
-    border: 1px solid #000;
+    border: 1px solid #307854;
     opacity: 1;
     display: block;
     max-height: 40px;
@@ -10657,7 +10657,7 @@ a, li {
         .groupbtntright a.call_online {
           display: block; } }
     .groupbtntright a.subscribe {
-      background-color: #000;
+      background-color: #307854;
       margin-bottom: 6px;
       color: #fff;
       text-transform: uppercase;
@@ -10675,7 +10675,7 @@ a, li {
       .groupbtntright a.subscribe:hover {
         text-decoration: none; }
     .groupbtntright a.book_online {
-      background-color: #000;
+      background-color: #307854;
       color: #fff;
       text-transform: uppercase;
       font-size: 13px;
@@ -10877,7 +10877,7 @@ a, li {
   src: url("../fonts/OpenSans-Semibold.ttf"); }
 
 @font-face {
-  font-family: OpenSans_Bold;
+  font-family: 'OpenSans Bold';
   src: url("../fonts/OpenSans-Bold.ttf"); }
 
 @font-face {
@@ -10885,7 +10885,7 @@ a, li {
   src: url("../fonts/OpenSans-Semibold.ttf"); }
 
 @font-face {
-  font-family: OpenSans_Light;
+  font-family: 'OpenSans Light';
   src: url("../fonts/OpenSans-Light.ttf"); }
 
 @font-face {
@@ -11732,7 +11732,11 @@ a, li {
         right: 0;
         padding: 30px;
         width: 80%;
-        margin: auto; }
+        margin: auto;
+        display: block; }
+        @media (max-width: 992px) {
+          .site2 .main-video-homepage .video-banner .info-video {
+            display: none; } }
         .site2 .main-video-homepage .video-banner .info-video p {
           color: #ffffff;
           font-size: 22px;
@@ -11819,6 +11823,9 @@ a, li {
         padding: 0; }
   .site2 .home-section-events {
     padding-top: 50px; }
+  .site2 .page-about-us {
+    padding: 100px 20px;
+    margin-top: 165px; }
   .site2 .overlay {
     position: fixed;
     left: 0;
