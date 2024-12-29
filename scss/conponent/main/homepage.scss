@@ -1,0 +1,235 @@
+.main {
+  &.homepage {
+    padding-bottom: 0;
+    overflow: hidden;
+
+    @media (max-width: 992px) {
+      overflow-x: hidden;
+    }
+
+    .section-title {
+      margin-bottom: 30px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        color: #2e7250;
+        text-align: center;
+        font-size: 14px;
+        font-family: "Lato-Bold" , sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+      }
+      h3 {
+        color: #272424;
+        text-align: center;
+        font-family: "futura-std";
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 1.4em;
+      }
+    }
+    .home-section-about {
+      .section-title {
+        h3 {
+          max-width: 63%;
+          @media (max-width: 992px) {
+            max-width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.home-section-subscribe {
+  background-image: url("../images/subscribe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px 0;
+  h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .box-subscribe {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+.home-section-about {
+  margin: 0 0 50px;
+  background-size: cover;
+  background-position: center bottom 0px;
+  background-repeat: no-repeat;
+  background-image: url(../images/bg04.png),
+    linear-gradient(180deg, #ffffff 0%, #deecf3 100%);
+}
+.main-video-homepage {
+  margin-top: 215px;
+  .video-banner {
+    position: relative;
+    .video-background {
+      width: 100%;
+    }
+    .info-video {
+      position: absolute;
+      top: 40%;
+      left: 0;
+      right: 0;
+      padding: 30px;
+      width: 80%;
+      margin: auto;
+      display: block;
+      @media (max-width: 992px) {
+        display: none;
+      }
+      p {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 500;
+        margin-bottom: 0;
+        text-align: center;
+        background-color: #211e1f61;
+        display: flex;
+        align-items: center;
+        border-radius: 6px;
+        padding: 7px 20px;
+      }
+    }
+  }
+}
+
+.home-section-our-team {
+  background-image: url("../images/bg04.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: static;
+  padding: 30px 0;
+  .our-team {
+    .our-team-item {
+      .our-team-item-img {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 80%;
+        }
+      }
+      .our-team-item-info {
+        text-align: center;
+        margin-top: 30px;
+        h4 {
+          font-weight: 700;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .owl-controls {
+    .owl-buttons {
+      position: absolute;
+      top: 30%;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      .owl-prev,
+      .owl-next {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        font-size: 25px;
+      }
+      .owl-prev {
+        left: 0;
+      }
+      .owl-next {
+        right: 0;
+      }
+    }
+  }
+}
+
+.home-section-classes {
+  margin-bottom: 50px;
+  .slider-classes {
+    &.owl-carousel {
+      .owl-item {
+        display: flex;
+        justify-content: center;
+      }
+      .owl-controls {
+        .owl-buttons {
+          position: absolute;
+          top: 30%;
+          left: 0;
+          right: 0;
+          z-index: 10;
+          .owl-prev,
+          .owl-next {
+            position: absolute;
+            width: 45px;
+            height: 45px;
+            font-size: 25px;
+          }
+          .owl-prev {
+            left: 0;
+          }
+          .owl-next {
+            right: 0;
+          }
+        }
+      }
+    }
+    .item {
+      width: 80%;
+      .description {
+        padding: 5px 10px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.home-section-anniversary {
+  padding: 50px 0;
+  .info-anniversary {
+    max-height: 350px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    &.show-full {
+      max-height: none;
+    }
+  }
+  .btn-read-more {
+    margin: 10px 0;
+    .btn-read-more{
+      padding: 0;
+    }
+  }
+}
+
+.home-section-events {
+  padding-top: 50px;
+}
+
+.page-about-us{
+  padding: 50px 20px;
+  margin-top: 165px;
+}
+
+.page-classes{
+  .video-container{
+    padding: 20px;
+  }
+}

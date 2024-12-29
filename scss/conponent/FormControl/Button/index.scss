@@ -1,0 +1,29 @@
+button {
+  &.btn-subscribe {
+    border-radius: 20px;
+    background-color: #2a6b4b;
+    border-color: #2a6b4b;
+    width: 175px;
+    font-size: 14px;
+    &:hover, &:focus {
+      background-color: #224d38;
+      border-color: #224d38;
+    }
+  }
+}
+
+a{
+  &.txt-link{
+    border-radius: 20px;
+    background-color: #2a6b4b;
+    border-color: #2a6b4b;
+    font-size: 14px;
+    padding: 6px 20px;
+    color: #fff;
+    &:hover, &:focus {
+      background-color: #224d38;
+      border-color: #224d38;
+      text-decoration: none;
+    }
+  }
+}

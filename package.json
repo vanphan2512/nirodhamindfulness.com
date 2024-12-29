@@ -1,0 +1,29 @@
+{
+  "name": "beatiful-ladies",
+  "version": "1.0.0",
+  "description": "project HTMl auto compile scss to css",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass scss/ -o css/",
+    "watch-css": "npm run build-css && node-sass scss/ -o css/ --watch",
+    "css-minify": "css-minify --dir css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/vanphan2512/beautiful-ladies.git"
+  },
+  "author": "phan nguyen van",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/vanphan2512/beautiful-ladies/issues"
+  },
+  "homepage": "https://gitlab.com/vanphan2512/beautiful-ladies#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
