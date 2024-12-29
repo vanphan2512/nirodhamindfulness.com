@@ -229,6 +229,10 @@
 .page-about-us{
   padding: 50px 20px;
   margin-top: 165px;
+  @media (max-width: 992px) {
+    margin-top: 70px;
+  }
+
 }
 
 .page-classes{

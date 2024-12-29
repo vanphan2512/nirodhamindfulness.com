@@ -11872,6 +11872,9 @@ li {
   .site2 .page-about-us {
     padding: 50px 20px;
     margin-top: 165px; }
+    @media (max-width: 992px) {
+      .site2 .page-about-us {
+        margin-top: 70px; } }
   .site2 .page-classes .video-container {
     padding: 20px; }
   .site2 .overlay {
