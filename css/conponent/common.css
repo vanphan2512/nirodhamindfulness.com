@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
   background: #fff;
-  font-family: "OpenSans Bold", sans-serif;
+  font-family: "Lato-Regular", sans-serif;
   color: #767676;
   -webkit-font-smoothing: antialiased; }
   body::-webkit-scrollbar-track {
@@ -20,8 +20,9 @@ h4,
 h5,
 h6,
 p,
-a, li {
-  font-family: "OpenSans Light", sans-serif;
+a,
+li {
+  font-family: "Lato-Regular", sans-serif;
   color: #000; }
 
 .nivo-lightbox-overlay {
@@ -289,3 +290,37 @@ a, li {
   border: 0; }
   .btn-read-more:focus {
     outline: none; }
+
+.title-page {
+  font-family: "poppins";
+  font-size: 35px;
+  color: #424242; }
+
+.title-description {
+  font-size: 25px;
+  color: #347d58;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-family: "Lato"; }
+
+.text-description {
+  font-size: 14px; }
+  .text-description a {
+    color: #347d58;
+    text-decoration: underline; }
+
+.text-link {
+  color: #5e6ea7;
+  transition: 'background .3s ease-in-out';
+  outline: none;
+  font-size: 16px; }
+  .text-link:hover {
+    text-decoration: none; }
+
+.group-text-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .group-text-icon .text-link {
+    margin-left: 10px; }

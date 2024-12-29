@@ -1,7 +1,7 @@
 body {
   margin: 0 auto;
   background: #fff;
-  font-family: "OpenSans Bold", sans-serif;
+  font-family: "Lato-Regular", sans-serif;
   color: #767676;
   -webkit-font-smoothing: antialiased;
 
@@ -26,10 +26,12 @@ h4,
 h5,
 h6,
 p,
-a,li{
-  font-family: "OpenSans Light", sans-serif;
+a,
+li {
+  font-family: "Lato-Regular", sans-serif;
   color: #000;
 }
+
 .nivo-lightbox-overlay {
   z-index: 999999;
 }
@@ -95,7 +97,7 @@ a,li{
       margin-bottom: 6px;
       border: 0;
       background-color: #000;
-      img{
+      img {
         width: 100%;
         background: #000000;
         border-top-left-radius: 4px;
@@ -171,13 +173,13 @@ a,li{
       margin-bottom: 0;
     }
     &.icon-face {
-      img{
+      img {
         width: 100%;
       }
     }
 
     &.icon-instagram {
-      img{
+      img {
         width: 100%;
       }
     }
@@ -367,5 +369,45 @@ a,li{
   border: 0;
   &:focus {
     outline: none;
+  }
+}
+
+.title-page {
+  font-family: "poppins";
+  font-size: 35px;
+  color: #424242;
+}
+
+.title-description{
+  font-size: 25px;
+  color: #347d58;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-family: "Lato";
+}
+.text-description{
+  font-size: 14px;
+  a{
+    color:  #347d58;
+    text-decoration: underline;
+  }
+}
+.text-link{
+  color: #5e6ea7;
+  transition: 'background .3s ease-in-out';
+  outline: none;
+  font-size: 16px;
+  &:hover{
+    text-decoration: none;
+
+  }
+}
+.group-text-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .text-link{
+    margin-left: 10px;
   }
 }
