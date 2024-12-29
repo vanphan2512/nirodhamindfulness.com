@@ -59,6 +59,9 @@
 
 .main-video-homepage {
   margin-top: 215px; }
+  @media (max-width: 992px) {
+    .main-video-homepage {
+      margin-top: 70px; } }
   .main-video-homepage .video-banner {
     position: relative; }
     .main-video-homepage .video-banner .video-background {

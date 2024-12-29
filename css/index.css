@@ -11764,6 +11764,9 @@ li {
     background-image: url(../images/bg04.png), linear-gradient(180deg, #ffffff 0%, #deecf3 100%); }
   .site2 .main-video-homepage {
     margin-top: 215px; }
+    @media (max-width: 992px) {
+      .site2 .main-video-homepage {
+        margin-top: 70px; } }
     .site2 .main-video-homepage .video-banner {
       position: relative; }
       .site2 .main-video-homepage .video-banner .video-background {
