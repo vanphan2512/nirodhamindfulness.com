@@ -11776,13 +11776,16 @@ li {
         width: 100%; }
       .site2 .main-video-homepage .video-banner .info-video {
         position: absolute;
-        top: 40%;
+        bottom: 0;
         left: 0;
         right: 0;
         padding: 30px;
         width: 80%;
         margin: auto;
-        display: block; }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
         @media (max-width: 992px) {
           .site2 .main-video-homepage .video-banner .info-video {
             display: none; } }
@@ -11795,8 +11798,12 @@ li {
           background-color: #211e1f61;
           display: flex;
           align-items: center;
-          border-radius: 6px;
-          padding: 7px 20px; }
+          padding: 0 15px;
+          width: fit-content; }
+          .site2 .main-video-homepage .video-banner .info-video p:first-child {
+            padding-bottom: 0; }
+          .site2 .main-video-homepage .video-banner .info-video p:last-child {
+            padding-bottom: 0; }
   .site2 .home-section-our-team {
     background-image: url("../images/bg04.jpg");
     background-position: top center;

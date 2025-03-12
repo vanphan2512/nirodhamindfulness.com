@@ -90,13 +90,16 @@
     }
     .info-video {
       position: absolute;
-      top: 40%;
+      bottom: 0;
       left: 0;
       right: 0;
       padding: 30px;
       width: 80%;
       margin: auto;
-      display: block;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
       @media (max-width: 992px) {
         display: none;
       }
@@ -109,8 +112,14 @@
         background-color: #211e1f61;
         display: flex;
         align-items: center;
-        border-radius: 6px;
-        padding: 7px 20px;
+        padding: 0 15px;
+        width: fit-content;
+        &:first-child{
+          padding-bottom: 0;
+        }
+        &:last-child{
+          padding-bottom: 0;
+        }
       }
     }
   }
